@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculo_do_IMC.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="Bem-vindo à nossa calculadora!" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold"/>
+            <Label Text="Mas o que faz nossa calculadora?" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
+            <Label Text="Nossa calculadora realiza cálculos acerda do IMC (Índice de Massa Corporal). O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos."/>
+            <Label Text="Para obter o IMC, basta dividir o seu peso (em quilos) pela altura (em metros) elevada ao quadrado (altura x altura). De acordo com o indicador, o peso considerado saudável é aquele situado entre 18,5 e 25."/>
+            <Label Text="De acordo com o Ministério da Saúde (MS), atualmente 60% dos brasileiros acima de 18 anos apresentam sobrepeso, e um em cada quatro é considerado obeso. O MS, no entanto, aponta algumas exceções em relação ao índice: "/>
+            <Label Text="- 1) crianças, adolescentes e idosos (a partir de 60 anos), que possuem composições corporais específicas;"/>
+            <Label Text="- 2) pessoas com muita massa magra (músculos) podem ter IMC mais alto, sem estarem com sobrepeso ou obesidade;"/>
+            <Label Text="- 3) mesmo sem estar com sobrepeso ou obesidade, a pessoa pode estar com níveis inadequados de colesterol, triglicérides, gordura e açúcar no sangue, por isso é importante realizar exames regulares;"/>
+            <Label Text="- 4) mulheres grávidas."/>
+            <Label Text="Considerada um problema de saúde pública, uma vez que atinge cada vez mais pessoas e está associada ao aumento de risco para doenças cardiovasculares, articulares, hipertensão, diabetes e depressão, entre outras doenças, a obesidade é um problema complexo que envolve uma série de fatores socioambientais. Por isso, a disseminação de informações sobre cuidados com a alimentação e hábitos saudáveis é parte essencial no combate à obesidade."/>
+            <Image Source="obesidade.jpg" />
+            <Image Source="tabela_imc.png" />
+
+
+
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Para mais informações, acesse " />
+                        <Span Text="Ministério da Saúde"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-ter-peso-saudavel/noticias/2017/imc-voce-sabe-calcular-seu-peso-adequado" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+
+                </Label.FormattedText>
+            </Label>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculo_do_IMC.Pages.Calculadora"
+             Title="Calculadora">
+    <VerticalStackLayout Padding="15, 0" Spacing="0">
+
+        <Entry x:Name="Peso" Keyboard="Numeric" Placeholder="Informe seu peso"/>
+
+        <Entry x:Name="Altura" Keyboard="Numeric" Placeholder="Informe sua altura em centímetros"/>
+
+        <Button x:Name="Calcular" Clicked="Calcular_Clicked" Text="Calcular" Margin="10" Background="DarkMagenta"/>
+
+        <Label Text="Resultado:" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" Padding="15" FontAttributes="Bold"/>
+
+        <Label x:Name="Resultado" HorizontalTextAlignment="Center" Padding="10" FontSize="Medium" FontAttributes="Bold"/>
+        <Label x:Name="Grau" Text="" HorizontalTextAlignment="Center" Padding="5" FontSize="Medium" FontAttributes="Bold"/>
+
+        <TableView Intent="Menu">
+            <TableRoot>
+                <TableSection Title="Índice de Massa Corporal">
+                    <TextCell TextColor="Black" Text="Abaixo de 18,50 = Abaixo do Peso"/>
+                    <TextCell TextColor="Black" Text="Entre 18,60 e 24,99 = Peso Ideal (parabéns)"/>
+                    <TextCell TextColor="Black" Text="Entre 25 e 29,99 = Levemente acima do peso"/>
+                    <TextCell TextColor="Black" Text="Entre 30 e 34,99 = Obesidade Grau I"/>
+                    <TextCell TextColor="Black" Text="Entre 35 e 39,99 = Obesidade Grau II"/>
+                    <TextCell TextColor="Black" Text="Acima de 40 = Obesidade Grau III"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

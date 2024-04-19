@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Calculo_do_IMC.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Calculo_do_IMC"
+    Shell.FlyoutBehavior="Disabled"
+    xmlns:pages="clr-namespace:Calculo_do_IMC.Pages"
+    Title="Calculo_do_IMC">
+
+
+    <TabBar>
+        <Tab Title="Home"
+            Icon="icon_casa.png">
+            <ShellContent Title="Home" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
+        </Tab>
+
+        <Tab Title="Calculadora"
+        Icon="icon_calculadora.png">
+            <ShellContent Title="Calculadora" ContentTemplate="{DataTemplate pages:Calculadora}" Route="MainPage" />
+        </Tab>
+
+        <Tab Title="Sobre"
+            Icon="icon_calculadora.png">
+            <ShellContent Title="Sobre" ContentTemplate="{DataTemplate pages:Sobre}" Route="MainPage"/>
+        </Tab>
+    </TabBar>
+
+</Shell>

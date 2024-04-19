@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculo_do_IMC.Pages.Sobre"
+             Title="Sobre">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+            Text="Quem somos?"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!"
+               Padding="15" HorizontalOptions="Center"/>
+            
+            
+            <Image Source="greg_pontepretano.jpg" />
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
